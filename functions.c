@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include "head.h"
 
-// MOHAMMAD KHALAF ANAGREH 130897
+
 
 
 void Name(struct ATM *p1)
@@ -115,8 +115,6 @@ void ChangeName(struct ATM *p){
   fgets((*p).Holder_name,sizeof((*p).Holder_name),stdin );
   
 }
-
-
   void cardprint(struct ATM *p){
         printf("Holder Name : ");printf("%s",(*p).Holder_name);printf("\n");
 
